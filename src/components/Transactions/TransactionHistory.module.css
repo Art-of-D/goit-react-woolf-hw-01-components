@@ -1,45 +1,45 @@
-.transactionHistory{
-    margin-top: 50px;
-    width: 390px;
-    gap: 10px;
-    border-collapse: separate;
-    border-spacing: 1px;
-    box-shadow:0 0 2px rgba(0, 0, 0, 0.5);
-    background-color: white;
-    border-radius: 5px;
-    overflow: hidden;
+.transactionHistory {
+  margin-top: 50px;
+  width: 390px;
+  gap: 10px;
+  border-collapse: separate;
+  border-spacing: 1px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
-.transactionHistory .transactionTop{
-    color: white;
-    background-color: lightseagreen;
-    padding: 0;
-    height: 30px;
+.transactionHistory .transactionTop {
+  color: white;
+  background-color: lightseagreen;
+  padding: 0;
+  height: 30px;
 }
 
 .transactionTop th:first-child {
-    border-radius: 5px 0 0 0;
+  border-radius: 5px 0 0 0;
 }
 
 .transactionTop th:last-child {
-    border-radius: 0 5px 0 0;
+  border-radius: 0 5px 0 0;
 }
 
-.transactionHistory .transactionData{
-    text-align: center;
-    color: black;
-    padding: 5px;
-    height: 30px;
+.transactionHistory .transactionData {
+  text-align: center;
+  color: black;
+  padding: 5px;
+  height: 30px;
 }
 
-.transactionHistory .transactionType::first-letter{
-    text-transform: uppercase;
+.transactionHistory .transactionType::first-letter {
+  text-transform: uppercase;
 }
 
 .transactionHistory .transactionData:nth-child(even) {
-    background-color: lightgrey;
+  background-color: lightgrey;
 }
 
 .transactionHistory .transactionData:nth-child(odd) {
-    background-color: white;
+  background-color: white;
 }

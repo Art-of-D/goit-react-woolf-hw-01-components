@@ -1,79 +1,78 @@
-.profile{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 390px;
-    background-color: white;
-    box-shadow:0 0 1px rgba(0, 0, 0, 0.5);
-    border-radius: 1%;
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 390px;
+  background-color: white;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  border-radius: 1%;
 }
 
-.description{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 30px;
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
 }
 
-.avatar{
-    box-shadow:0 0 1px rgba(0, 0, 0, 0.5);
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
+.avatar {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
 }
 
-.name{
-    margin: 30px 0 10px 0;
-    font-weight: bold;
-    font-size: large;
+.name {
+  margin: 30px 0 10px 0;
+  font-weight: bold;
+  font-size: large;
 }
 
-.tag{
-    margin: 5px;
-    color: grey;
+.tag {
+  margin: 5px;
+  color: grey;
 }
 
-.location{
-    margin: 5px;
-    color: grey;
+.location {
+  margin: 5px;
+  color: grey;
 }
 
-.stats{
-    display: flex;
-    padding: 0;
-    margin: 0;
-    width: 100%;
+.stats {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
-.stats li:first-child{
-    border-radius: 0 0 0 5px;
+.stats li:first-child {
+  border-radius: 0 0 0 5px;
 }
 
-.stats li:last-child{
-    border-radius: 0 0 5px 0;
+.stats li:last-child {
+  border-radius: 0 0 5px 0;
 }
 
-.stats li{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 130px;
-    height: 60px;
-    padding: 10px;
-    background-color: lightgrey;
-    box-shadow:0 0 1px rgba(0, 0, 0, 0.5);
+.stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 130px;
+  height: 60px;
+  padding: 10px;
+  background-color: lightgrey;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 }
 
-.stats .label{
-    color: grey;
-    font-weight: bold;
-    font-weight: 400;
+.stats .label {
+  color: grey;
+  font-weight: bold;
+  font-weight: 400;
 }
 
-.stats .quantity{
-    margin-top: 10px;
-    font-weight: bolder;
-    font-size: large;
+.stats .quantity {
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: large;
 }
-
