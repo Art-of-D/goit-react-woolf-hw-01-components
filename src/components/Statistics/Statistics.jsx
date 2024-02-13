@@ -1,8 +1,7 @@
 import style from './Statistics.module.css';
 import { getHex } from '../../utils/color-changer';
 
-export const Statistics = data => {
-  const { title, stats } = data;
+export const Statistics = ({ title, stats }) => {
   return (
     <section className={style.statistics}>
       {title && <h2 className={style.title}>{title}</h2>}

@@ -1,8 +1,12 @@
 import style from './Profile.module.css';
 
-export const Profile = userData => {
-  const { username, tag, location, avatar, stats } = userData;
-  const { followers, views, likes } = stats;
+export const Profile = ({
+  username,
+  tag,
+  location,
+  avatar,
+  stats: { followers, views, likes },
+}) => {
   return (
     <div className={style.profile}>
       <div className={style.description}>
